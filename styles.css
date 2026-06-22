@@ -1,0 +1,46 @@
+:root {
+  color-scheme: light dark;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #111827;
+  color: #f9fafb;
+}
+
+.hero {
+  padding: 2rem 1rem;
+  text-align: center;
+  background: #1f2937;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 2rem;
+}
+
+.card-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.game-card {
+  padding: 1rem;
+  border-radius: 10px;
+  background: #1f2937;
+  border: 1px solid #374151;
+}
+
+.game-card h3 {
+  margin-top: 0;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid #374151;
+  color: #d1d5db;
+}
