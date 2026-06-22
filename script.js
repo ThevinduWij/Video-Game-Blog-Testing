@@ -12,4 +12,6 @@ if (updatedAt) {
     minute: '2-digit'
   });
   updatedAt.textContent = `Updated: ${date} ${time}`;
+} else {
+  console.warn('Element with id "updated-at" was not found.');
 }
