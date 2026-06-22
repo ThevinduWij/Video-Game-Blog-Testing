@@ -71,13 +71,23 @@
                 background-position: 100% 50%;
             }
         }
+
+        @media (prefers-reduced-motion: reduce) {
+            .rainbow-banner {
+                animation: none;
+                transform: translateX(0);
+                padding-left: 0;
+                display: block;
+                text-align: center;
+            }
+        }
     </style>
 
 </head>
 
 <body>
 
-<div class="rainbow-banner-wrap" aria-label="Perci and Thiv's Gaming Blog">
+<div class="rainbow-banner-wrap">
     <div class="rainbow-banner">Perci and Thiv's Gaming Blog</div>
 </div>
 
