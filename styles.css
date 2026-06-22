@@ -1,19 +1,23 @@
 :root {
+  --background-color: #111827;
+  --text-color: #f9fafb;
+  --surface-color: #1f2937;
+  --border-color: #374151;
+  --muted-text-color: #d1d5db;
   --card-border-radius: 10px;
-  color-scheme: light dark;
   font-family: Arial, sans-serif;
 }
 
 body {
   margin: 0;
-  background: #111827;
-  color: #f9fafb;
+  background: var(--background-color);
+  color: var(--text-color);
 }
 
 .hero {
   padding: 2rem 1rem;
   text-align: center;
-  background: #1f2937;
+  background: var(--surface-color);
 }
 
 .container {
@@ -31,8 +35,8 @@ body {
 .game-card {
   padding: 1rem;
   border-radius: var(--card-border-radius);
-  background: #1f2937;
-  border: 1px solid #374151;
+  background: var(--surface-color);
+  border: 1px solid var(--border-color);
 }
 
 .game-card h3 {
@@ -42,6 +46,6 @@ body {
 .footer {
   text-align: center;
   padding: 1rem;
-  border-top: 1px solid #374151;
-  color: #d1d5db;
+  border-top: 1px solid var(--border-color);
+  color: var(--muted-text-color);
 }
